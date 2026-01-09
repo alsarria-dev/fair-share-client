@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;800&family=Roboto&family=Satisfy&display=swap");
+
+
+.landing-container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.landing-container2 {
+
+  padding-top: 2.5%;
+  padding-left: 4%;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+
+
+}
+
+.slogan {
+  margin-top: 1vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 6vw;
+  margin-bottom: 1.5vh;
+}
+
+.slogansito {
+  margin-left: 2.5vw;
+  font-size: 2.5vw;
+  margin-bottom: 1.5vh;
+}
+
+.icons-LandingPage {
+  width: 12vw;
+  height: 12vh;
+  margin-top: 5vh;
+  margin-left: 2.5vw;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.btn {
+  width: 10em;
+  height: 6vh;
+  color: #fff;
+  background-color: #233565;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+
+
+.landingBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.btn {
+  width: 10em;
+  height: 2em;
+  color: #fff;
+  background-color: #233565;
+  margin-top: 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+.slogan {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0.5vh;
+}
+
+.slogansito {
+  margin-left: 2.5vw;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.5vh;
+}
+
+.landingPageLink {
+  width: 30px;
+}
+
+.landingText {
+  padding: 5vw;
+}
+
+.backgroundImg {
+  width: 100%;
+  z-index: -1;
+}
+
+.device {
+  width: 14px;
+}
+
+.platformDevice {
+  margin-top: 1em;
+}
+
+.landingImageDeco {
+  width: 100%;
+  margin-top: 5vh;
+}
+
+/* .landingExtras{
+    display: none;
+  } */
+
+
+
+@media (min-width: 750px) {
+.logoText{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+  .landingExtras {
+    display: block;
+  }
+
+  .backgroundImg {
+    position: static;
+    transform: none;
+    z-index: -1;
+    width: 80%;
+
+  }
+
+  .landing-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+  }
+
+  .landingBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+
+  }
+
+  .landingImageDeco{
+    width: 80%;
+    margin-top: 10vh;
+  }
+}
