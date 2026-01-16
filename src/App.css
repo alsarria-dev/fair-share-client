@@ -7,24 +7,23 @@
   text-decoration: none;
   font-family: "poppins";
 }
-.bodyView{
+.bodyView {
   min-height: 100vh;
   width: 100%;
 }
-body{
-
+body {
   width: 100vw;
   min-height: 100vh;
 }
-#root{
+#root {
   width: 100%;
 
   height: 100vh;
 }
 
-a { 
-  color: inherit; 
-} 
+a {
+  color: inherit;
+}
 
 /* #8BD8BC green
 #233565 blue */

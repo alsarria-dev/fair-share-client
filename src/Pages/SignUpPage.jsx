@@ -9,7 +9,7 @@ import PhoneNumber from "../assets/images/phone-icon.svg";
 import emailIcon from "../assets/images/email-icon.svg";
 import paswordIcon from "../assets/images/password-icon.svg";
 import passwordConfirmIcon from "../assets/images/password-confirm.svg";
-import owl from "../assets/owl.png"
+import owl from "../assets/owl.png";
 
 const API_URL = import.meta.env.VITE_API_URL;
 
@@ -36,10 +36,10 @@ function SignUpPage(props) {
   const handleSignUpSubmit = (e) => {
     e.preventDefault();
 
-    if (password !== confirmPassword){
+    if (password !== confirmPassword) {
       setErrorMessage("Passwords need to coincide");
-      return
-    };
+      return;
+    }
 
     // name, lastName, dateOfBirth, phoneNumber, email, password
     const requestBody = {
@@ -48,13 +48,13 @@ function SignUpPage(props) {
       dateOfBirth,
       phoneNumber,
       email,
-      password
+      password,
     };
 
     axios
       .post(`${API_URL}/auth/signup`, requestBody)
       .then((response) => {
-       navigate("/login");
+        navigate("/login");
       })
       .catch((error) => {
         const errorDescription = error.response.data.message;
@@ -70,7 +70,7 @@ function SignUpPage(props) {
         <div className="headerSP">
           <div className="logoAndTitle">
             {/* <img className=" owlSignUp" src={owl} alt="" /> */}
-            <div className="sp-text-signup">  Sign Up</div>
+            <div className="sp-text-signup"> Sign Up</div>
           </div>
           <div className="underline-sp"></div>
         </div>
@@ -148,8 +148,7 @@ function SignUpPage(props) {
             </div>
           </div>
           <div className="sp-btn-submit-container">
-           <button className="sp-btn-submit">Sign Up</button>
-            
+            <button className="sp-btn-submit">Sign Up</button>
           </div>
         </form>
 

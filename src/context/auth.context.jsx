@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+iimport React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useLocation, useNavigate } from "react-router-dom";
 const API_URL = import.meta.env.VITE_API_URL;

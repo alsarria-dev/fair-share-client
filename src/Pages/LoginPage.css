@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;800&family=Roboto&family=Satisfy&display=swap");
 .login-container {
-position: relative;
+  position: relative;
 }
 
-.bodyView{
+.bodyView {
   min-height: 90vh;
 }
 
 .log-container {
-
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24,9 +23,9 @@ position: relative;
   border-radius: 30px;
   border: 10px solid #233565;
 }
-.lg-form{
-    margin: 0;
-    height: 31vh;
+.lg-form {
+  margin: 0;
+  height: 31vh;
 }
 .header-lg {
   display: flex;
@@ -85,93 +84,86 @@ position: relative;
   margin: 35px;
 }
 .lg-btn-submit {
-    width: 10vw;
-    height: 6vh;
-    color: #fff;
-    background-color: #233565;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
+  width: 10vw;
+  height: 6vh;
+  color: #fff;
+  background-color: #233565;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
 }
 .lg-haveaccount {
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    margin-left: 2vw;
-
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin-left: 2vw;
 }
 
-.lg-link-signup{
+.lg-link-signup {
   margin-left: 2vw;
   font-weight: 700;
   font-size: 16px;
   margin-left: 2vw;
   color: #233565;
 }
-.lg-link-signup:hover{
+.lg-link-signup:hover {
   text-decoration: underline;
-
 }
-@media (max-width:1024px){
-
-  .login-container{
-      width: 70vw;
-      margin-left: 15%;
-      margin-bottom: 15.5vh;
-
-   }
-   .log-container{
-      width:65vw;
-   }
-   .lg-input{
-      width: 45vw;
-   }
-   .lg-input img{
-      width: 3vw;
-   }
-   .lg-input input{
-      width: 55vw;
-      font-size: 12px;
-   }
-   .lg-btn-submit{
-      width: 30vw;
-   }
-   .lg-input input {
+@media (max-width: 1024px) {
+  .login-container {
+    width: 70vw;
+    margin-left: 15%;
+    margin-bottom: 15.5vh;
+  }
+  .log-container {
+    width: 65vw;
+  }
+  .lg-input {
+    width: 45vw;
+  }
+  .lg-input img {
+    width: 3vw;
+  }
+  .lg-input input {
+    width: 55vw;
+    font-size: 12px;
+  }
+  .lg-btn-submit {
+    width: 30vw;
+  }
+  .lg-input input {
     height: 4vh;
     width: 100%;
     background: transparent;
-    
+
     outline: none;
     color: #797979;
     font-size: 16px;
   }
-
-
 }
 @media (min-width: 1024px) {
   .login-container {
-      width: 27vw;
-      margin-left: 35%;
+    width: 27vw;
+    margin-left: 35%;
   }
 
   .log-container {
-      width: 25vw;
+    width: 25vw;
   }
 
   .lg-input {
-      width: 22vw;
+    width: 22vw;
   }
 
   .lg-input img {
-      width: 1.5vw;
+    width: 1.5vw;
   }
 
   .lg-input input {
-      width: 20vw;
+    width: 20vw;
   }
 
   .lg-btn-submit {
-      width: 40vw;
+    width: 40vw;
   }
 }
-

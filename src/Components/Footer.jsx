@@ -11,12 +11,8 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footerLeft-container">
-        <p className="footer-paragraph">
-          © {date.getFullYear()}
-        </p>
-        <p className="footer-paragraph">
-          Fair Share
-        </p>
+        <p className="footer-paragraph">© {date.getFullYear()}</p>
+        <p className="footer-paragraph">Fair Share</p>
       </div>
       <div className="footerMid-container">
         <a href="https://www.instagram.com/" target="__blank">
@@ -54,12 +50,11 @@ function Footer() {
         <a href="https://twitter.com/" target="__blank">
           <img className="footer-logo xlogo" src={xLogo} alt="x logo" />
         </a>
-
       </div>
       <div className="footerRight-container">
         <p className="footer-paragraph left">About Us</p>
       </div>
-    </div >
+    </div>
   );
 }
 

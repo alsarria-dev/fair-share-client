@@ -1,25 +1,21 @@
-.bodyView{
-    display: flex;
-    flex-direction: row;
-
-    
+.bodyView {
+  display: flex;
+  flex-direction: row;
 }
-.overviewExpenses{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    min-height: 100vh;
+.overviewExpenses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 @media (min-width: 1024px) {
-    .overviewExpenses{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        width: 100vw;
-        min-height: 100vh;
-    }
-
+  .overviewExpenses {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100vw;
+    min-height: 100vh;
+  }
 }
-

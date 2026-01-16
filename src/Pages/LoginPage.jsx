@@ -18,7 +18,8 @@ function LoginPage(props) {
 
   const navigate = useNavigate();
 
-  const { storeToken, authenticateUser, setAvatarPic } = useContext(AuthContext);
+  const { storeToken, authenticateUser, setAvatarPic } =
+    useContext(AuthContext);
 
   const handleLoginSubmit = (e) => {
     e.preventDefault();
@@ -30,7 +31,7 @@ function LoginPage(props) {
         console.log("JWT token", response.data.authToken);
 
         storeToken(response.data.authToken);
-        
+
         authenticateUser();
       })
 
@@ -41,7 +42,6 @@ function LoginPage(props) {
   };
 
   return (
-    
     <div className="login-container">
       <div className="log-container">
         <div className="header-lg">
@@ -80,7 +80,10 @@ function LoginPage(props) {
         <p className="lg-haveaccount">
           Don't have an <strong>account yet</strong>?
         </p>
-        <Link to={"/signup"} className="lg-link-signup"> Sign Up</Link>
+        <Link to={"/signup"} className="lg-link-signup">
+          {" "}
+          Sign Up
+        </Link>
       </div>
     </div>
   );

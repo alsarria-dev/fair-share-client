@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;800&family=Roboto&family=Satisfy&display=swap");
 
-
 .landing-container {
   margin: 0;
   padding: 0;
@@ -9,14 +8,11 @@
 }
 
 .landing-container2 {
-
   padding-top: 2.5%;
   padding-left: 4%;
   height: 100%;
   overflow-y: auto;
   box-sizing: border-box;
-
-
 }
 
 .slogan {
@@ -39,7 +35,6 @@
   margin-left: 2.5vw;
   display: flex;
   justify-content: space-around;
-
 }
 
 .btn {
@@ -51,17 +46,13 @@
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
-
 }
-
-
 
 .landingBtns {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .btn {
@@ -74,7 +65,6 @@
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
-
 }
 
 .slogan {
@@ -120,14 +110,11 @@
     display: none;
   } */
 
-
-
 @media (min-width: 750px) {
-.logoText{
-  display: flex;
-  flex-direction: column-reverse;
-}
-
+  .logoText {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
   .landingExtras {
     display: block;
@@ -138,14 +125,12 @@
     transform: none;
     z-index: -1;
     width: 80%;
-
   }
 
   .landing-container2 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-
   }
 
   .landingBtns {
@@ -154,10 +139,9 @@
     align-items: center;
     flex-direction: row;
     gap: 50px;
-
   }
 
-  .landingImageDeco{
+  .landingImageDeco {
     width: 80%;
     margin-top: 10vh;
   }
