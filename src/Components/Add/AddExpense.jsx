@@ -4,7 +4,7 @@ import Select from "react-select";
 import supabase from "../../utils/config";
 import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
-import { AuthContext } from "../../conext/auth.context";
+import { AuthContext } from "../../context/auth.context";
 import "./AddExpense.css";
 
 const API_URL = import.meta.env.VITE_API_URL;
